@@ -1,0 +1,21 @@
+.form-control {
+    width: 100%; /* Adjust width */
+    max-width: 200px; /* Limit the maximum width */
+    padding: 5px 10px; /* Add padding for larger size */
+    border: 2px solid #ccc; /* Grayish border */
+    border-radius: 50px; /* Oval shape */
+    font-size: 16px; /* Text size */
+    outline: none; /* Remove outline */
+    box-shadow: none; /* Remove any shadow */
+}
+
+/* Placeholder styling */
+.form-control::placeholder {
+    color: rgba(128, 128, 128, 0.5); /* Grayish color with 50% opacity */
+    font-style: italic; /* Italic placeholder text */
+}
+
+/* Focus effect */
+.form-control:focus {
+    border-color: #999; /* Slightly darker gray on focus */
+}
